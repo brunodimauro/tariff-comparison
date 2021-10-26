@@ -31,5 +31,6 @@ Examples:
 Create a RESTful service to retrieve the products via GET
 
 # My approach
-I did it in a simple way to reach the goal. The calculation is created in a function and its factors are fixed. As a consumption value calculation can vary temporarily, maybe it is ideal to leave the calculation parameters in fields in the database.
-Tests are using Moq and XUnit library.
+I did it in a simple way to reach the goal. The calculation is created in a function and its factors are fixed. As a consumption value calculation can vary temporarily, maybe it is ideal to leave the calculation parameters in fields in the database.  
+Tests are using Moq and XUnit library.  
+There are some integration and unit tests. Integration tests are testing API calls and unit tests are testing the calculation itself.  
